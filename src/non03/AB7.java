@@ -4,17 +4,16 @@ import java.util.Scanner;
 
 public class AB7 {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		 
-		int a = in.nextInt();
- 
-		for (int i = 1; i <= a; i++) {
-			int c = in.nextInt();
-			int d = in.nextInt();
- 
-			System.out.println("Case #" + i + ": " + (c + d));
+		int T = sc.nextInt();
+		
+		for(int i=1; i<=T; i++) {
+			int A = sc.nextInt();
+			int B = sc.nextInt();
+		
+			System.out.println("Case #" + i + ": " + (A + B));
 		}
- 
-		in.close();
+		
 	}
 }
