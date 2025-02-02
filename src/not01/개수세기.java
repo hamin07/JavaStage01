@@ -16,7 +16,7 @@ public class 개수세기 {
 		 
 		 int a = sc.nextInt();
 		 
-		 for(int j = 0; j < N; j++) {
+		 for(int j = 0; j < N; j++) { // N = arr.length
 			 if(a==arr[j]) {
 				 count++;	
 			 }
