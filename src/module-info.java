@@ -4,5 +4,5 @@
 /**
  * 
  */
-module not {
+module nin {
 }
