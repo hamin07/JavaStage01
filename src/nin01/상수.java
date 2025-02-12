@@ -17,3 +17,4 @@ public class 상수 {
 		System.out.println(A > B ? A : B);
 	}
 }
+	//Integer.paraseInt(new StringBuilder().append().reverse().toString()); 기억할것
